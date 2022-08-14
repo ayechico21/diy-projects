@@ -1,0 +1,28 @@
+
+label{
+    background-color: blueviolet;
+    color: white;
+    padding: .4em;
+    border-radius: .4em;
+    cursor: pointer;
+    margin-right: .2em;
+}
+
+table{
+    width: 60%;
+}
+
+td, th{
+    text-align: left;
+    padding: .8em;
+    font-size: 1.2em;
+}
+
+th{
+    background-color: blueviolet;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: lightgrey;
+}
